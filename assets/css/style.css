@@ -1,0 +1,34 @@
+*{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.card-informasi h1{
+    color: rgb(73, 73, 73);
+    font-weight: 500;
+}
+
+.table > tbody > tr > *{
+    vertical-align: middle;
+}
+.foto-murid img{
+    width: 40px;
+    cursor: pointer;
+}
+
+.fotoPreview{
+    width: 300px;
+}
+
+.btn-login,.btn-register{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .input-group-cari{
+        margin-top: 5px;
+    }
+
+    .card-informasi .card-informasi-guru,.card-informasi .card-informasi-jurusan{
+        margin-top: 10px;
+    }
+}
